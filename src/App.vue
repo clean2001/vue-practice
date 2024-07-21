@@ -2,21 +2,21 @@
   <v-app>
     <v-main>
       <!-- <HelloWorld/> -->
-      <ModalDialog/>
+      <ModalDialog/> <!-- [changed] 여기 바꿔주기 -->
     </v-main>
   </v-app>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import ModalDialog from './components/ModalDialog.vue';
+import ModalDialog from './components/ModalDialog.vue'; // 여기 바꿔주기!
 
 export default { // export default로 모듈을 추출하고 있다.
   name: 'App',
 
   components: {
     // HelloWorld,
-    ModalDialog
+    ModalDialog // 여기 바꿔주기
   },
 
   data: () => ({

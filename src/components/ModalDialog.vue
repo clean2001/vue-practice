@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-btn color="primary" dark @click="dialog = true">Open Modal</v-btn>
+    <v-btn color="custom_color" dark @click="dialog = true">Open Modal</v-btn>
 
     <v-dialog v-model="dialog" max-width="500px">
       <v-card>
@@ -14,8 +14,8 @@
 
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="blue darken-1" text @click="dialog = false">Close</v-btn>
-          <v-btn color="blue darken-1" text @click="save">Save</v-btn>
+          <v-btn color="deep" text @click="dialog = false">Close</v-btn>
+          <v-btn color="deep" text @click="save">Save</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
